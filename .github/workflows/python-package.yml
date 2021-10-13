@@ -33,4 +33,4 @@ jobs:
           poetry run pylint camunda
       - name: Test with pytest
         run: |
-          pytest
+          poetry run pytest
